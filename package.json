@@ -1,6 +1,7 @@
 {
   "name": "todo-list",
-  "homepage": "https://github.com/2004Vansh/TODO---LIST",
+  "homepage": "https://2004vansh.github.io/TODO/",
+
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +10,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
+
 
   },
   "dependencies": {
